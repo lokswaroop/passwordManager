@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg {
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+  padding: 20px;
+}
+.image {
+  width: 100px;
+}
+
+.smallImage {
+  height: 30px;
+  width: 30px;
+}
+
+.container1 {
+  background-color: #5763a5;
+  display: flex;
+  padding: 20px;
+}
+.heading {
+  color: #ffffff;
+  font-size: 20px;
+}
+.card {
+  background-color: #454f84;
+  width: 300px;
+  height: 220px;
+  padding: 20px;
+  border-radius: 10px;
+}
+.addButton {
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-style: none;
+}
+.passwordImage {
+  height: 300px;
+  width: 300px;
+}
+.container2 {
+  background-color: #5763a5;
+  display: flex;
+  padding: 20px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+.end {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+
+.noPasswordImage {
+  height: 300px;
+  width: 300px;
+}
+.hr {
+  color: #ffffff;
+}
+.para {
+  color: #ffffff;
+  margin-left: 10px;
+}
+.star {
+  width: 100px;
+}
+.deleteButton {
+  background-color: transparent;
+  border-style: none;
+}
+.delImage {
+  height: 20px;
+  width: 20px;
+}
